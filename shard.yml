@@ -1,0 +1,17 @@
+name: sidekiq_cr_example
+version: 0.1.0
+
+authors:
+  - Jamie Gaskins <jgaskins@gmail.com>
+
+targets:
+  sidekiq_cr_example:
+    main: src/sidekiq_cr_example.cr
+
+dependencies:
+  sidekiq:
+    path: ../sidekiq.cr
+
+crystal: 0.32.1
+
+license: MIT
